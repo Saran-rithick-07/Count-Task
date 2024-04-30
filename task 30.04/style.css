@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#rectangle{
+    background-color: black;
+    width: 280px;
+    height: 100px;
+}
+
+#circle{
+    background-color:black;
+    width: 130px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 60px;
+    
+}
+
+#square{
+    background-color: black;
+    width: 120px;
+    height: 95px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lowpart{
+    display: flex;
+    gap: 20px;
+
+}
+
+button{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.count{
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    
+    <div class="parent">
+        <div class="content">
+            <div  id="boxes">
+                <div id="rectangle">
+                <div id="circle">
+                    <div id="square"></div>
+                </div>
+                </div>
+            </div>
+
+
+            <div id="show"> </div>
+            <div class="lowpart">
+                <button onclick="count()" id="click"> Click </button>
+                <button onclick="reset()" id="Reset"> Reset </button>
+                <button onclick="red()" id="red"> Red </button>
+                <button onclick="blue()" id="blue"> blue </button>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+       function red(){
+       
+        document.getElementById("rectangle").style.backgroundColor="red";
+        document.getElementById("square").style.backgroundColor="red";
+        document.getElementById("circle").style.backgroundColor="red";
+        
+        
+       }
+       
+       function blue(){
+        document.getElementById("rectangle").style.backgroundColor="blue";
+        document.getElementById("square").style.backgroundColor="blue";
+        document.getElementById("circle").style.backgroundColor="blue";
+        
+       }
+
+
+       function reset(){
+        show.innerHTML =  "count 0" ;
+       }
+
+       function count(){
+        show.innerHTML =  "count 1" ;
+       }
+
+       
+    </script>
+</body>
+</html>
